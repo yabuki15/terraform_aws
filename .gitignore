@@ -1,0 +1,21 @@
+# .gitignore
+
+# Local Terraform directories
+.terraform/
+.terraform.lock.hcl
+
+# .tfvars files should not be committed
+*.tfvars
+*.tfvars.json
+
+# Override files
+*.auto.tfvars
+*.auto.tfvars.json
+override.tf
+override.tf.json
+
+# Crash log files
+crash.log
+
+# Private key files
+*.pem
